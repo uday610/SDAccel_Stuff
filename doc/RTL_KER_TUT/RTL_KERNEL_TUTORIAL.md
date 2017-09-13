@@ -60,6 +60,7 @@ Here are the basic switches of the **package_xo** command used in this example:
 | **ip_directory**  |	Input	 | Name of the RTL-IP directory  |  
 | **kernel_xml**    |	Input	 | Kernel description XML file   |  
 
+
 Vivado command execution to create XO file   
 
 ```
