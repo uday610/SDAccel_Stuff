@@ -118,21 +118,21 @@ After invoking the GUI, we will follow the following steps, broadly categorized 
 
 Add workspace inside the current directory named **Test_dir** as shown below. A new directory **Test_dir** will be created and used to store all logfiles of our runs.
 
-![](./figures/rt_1.jpg)
+![](./img1.jpg)
 
 ### B. Set the Platform
 
 You will get a Welcome screen. You need to set Platform path by selecting **Add custom platform** as shown below.
 
-![](./figures/rt_2.jpg)
+![](./img2.jpg)
 
 Click on the plus sign as shown below.
 
-![](./figures/rt_3.jpg)
+![](./img3.jpg)
 
 Then browse to the <git area>/SDAccel/aws_platform/xilinx_aws-vu9p-f1_4ddr-xpr-2pr_4_0/ directory, select platform.    
 
-![](./figures/rt_4.jpg)
+![](./img4.jpg)
 
 Click **Apply** and **OK**. This completes the Platform setup process. 
 
@@ -148,7 +148,7 @@ Finally Select an **Empty Application** in the **Available Templates** section, 
 
 Now with the SDX GUI open, at the left side you can see **Project Explorer** window. Right Click on **project.sdx** and then Select **Import**.
 
-![](./figures/rt_5.jpg)
+![](./img5.jpg)
 
 Select **General** -> **Filesystem** and then click on **Next**.  
 
@@ -156,7 +156,7 @@ Browse to the source file directory of the current example, **rtl_vadd/src**
 
 Select the files **host.cpp** , **xcl.c**, **xcl.h** and **rtl_vadd.xo** as shown below.
 
-![](./figures/rt_6.jpg)
+![](./img6.jpg)
 
 ### E. Specify Binary Container for Kernel executable
 
@@ -164,12 +164,12 @@ Follow the steps below to add Binary Container
 
 Click **Add Binary Container** icon as shown below 
 
-![](./figures/rt_7.jpg)
+![](./img7.jpg)
 
 Select **Automatically add binary container(s) to arguments** from the top Menu **Run**->**Run Configuration**-> Selecting **Arguments** tab (as shown below)
 
 
-![](./figures/rt_8.jpg)
+![](./img8.jpg)
 
 We completed the GUI setup, now we will verify our Application by Hardware Emulation flow. 
 		   
@@ -182,19 +182,19 @@ Other selection choices of **Active Build Configuration** are **Emulation-CPU** 
 
 
  
-![](./figures/rt_9.jpg)
+![](./img9.jpg)
 
 Then click on the **Build** icon to start Emulation build process.
  
-![](./figures/rt_10.jpg)   
+![](./img10.jpg)   
 
 After Emulation build process completes, run Hardware Emulation flow by clicking on the **Run** Icon. 
 
-![](./figures/rt_11.jpg)
+![](./img11.jpg)
 
 After the completion of Hardware Emulation run, in the **Reports** tab, you can inspect various reports, such as **System Estimate**, **Profile Summary**, and  **Application Timeline**.  
 
-![](./figures/rt_12.jpg) 
+![](./img12.jpg) 
 
 ### G. Compile the Application for FPGA execution   
 
