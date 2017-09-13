@@ -26,7 +26,7 @@ Execute the following commands to clone the Github repository and configure the 
     $ source sdaccel_setup.sh
 ```   
 
-Go the testcase directory   
+Go to the testcase directory   
 
 ```
    cd SDAccel/examples/xilinx/getting_started/rtl_kernel/rtl_vadd
