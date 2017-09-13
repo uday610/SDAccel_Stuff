@@ -81,7 +81,7 @@ Generated XO file: **./src/rtl_vadd.xo**
 
 The Host code for this example is **./src/host.cpp** file.  
 
-Note, for SDAccel, the host code must use OpenCL programming paradigm. 
+Note, for SDAccel, the host code must be expressed using OpenCL programming paradigm. 
 
 The SDAccel Github examples use common header files and those needs to be copied in the local project source folder to make it easier to use. Type the command **make local-files** to copy all necessary files in the local directory.  
 
