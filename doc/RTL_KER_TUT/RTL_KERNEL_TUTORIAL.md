@@ -4,7 +4,7 @@
 This tutorial explains the procedure to run SDAccel flow using a RTL Kernel description. The tutorial is using **vadd_kernel** example from the SDAccel Github examples repository.  
 
 Following steps are needed in order to run SDAccel using RTL Kernel.  
-1. Prepare the RTL adhering the interface requirement. 
+1. Write your application in RTL language (Verilog or VHDL) adhering the interface requirement. 
    - In SDAccel terminology this RTL is also reffered as **Kernel** to be accelerated on an F1 Instamce. 
    - A XML file needs to be created describing the RTL interface.    
 2. Generate XO (Xilinx Object) file for RTL Kernel.  
