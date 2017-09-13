@@ -9,7 +9,7 @@ Following steps are needed in order to run SDAccel using RTL Kernel.
 2. Generate XO (Xilinx Object) file for RTL Kernel.  
 3. Run SDAccel with OpenCL Host code and XO file.
 
-**RTL Kernel Wizard** is a useful flow to create the required RTL Interface that can be used by the user as a starting point. Based on the user input, RTL Kernel Wizard creates the top-level RTL module adhering the interface requirement. The user then can drop his own RTL inside the top-level interface module. RTL Kernel Wizard also creates the necessary XML file and finally creates XO (Xilinx Object) file, required for SDAccel flow. In other words, the first two steps listed above can be automated using RTL Kernel Wizard flow.   
+**RTL Kernel Wizard** is a useful flow to create the required RTL Interface that can be used by the user as a starting point. Based on the user input, RTL Kernel Wizard creates the top-level RTL module adhering the interface requirement. The user then can drop his own RTL inside the top-level interface module. RTL Kernel Wizard also creates the necessary XML file and finally creates XO (Xilinx Object) file, required for SDAccel flow. **In other words, the first two steps listed above can be automated by using RTL Kernel Wizard flow**.   
 
 To know more details about RTL Kernel wizard flow, you may look at this online [quick-take video](https://www.youtube.com/watch?v=IZQ1A2lPXZk)
 
