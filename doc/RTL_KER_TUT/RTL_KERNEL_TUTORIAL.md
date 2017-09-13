@@ -179,6 +179,7 @@ We completed the GUI setup, now we will verify our Application by Hardware Emula
 
 
 Inside **SDx Project Settings** you can find **Active Build Configuration**.   
+  
 Selection choices of **Active Build Configuration** are **Emulation-CPU**, **Emulation-HW** and **System**.   
 
 **Emulation-CPU** performs Software Emulation build that is only applicable to the C,C++ and OpenCL Kernels. Software Emulation is not applicable for RTL Kernels.  
