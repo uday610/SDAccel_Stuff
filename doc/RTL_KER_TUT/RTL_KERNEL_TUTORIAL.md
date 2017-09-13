@@ -270,3 +270,4 @@ All Device results match CPU results!
 TEST PASSED.
 ```	
 
+Thank You!! We have completed the tutorial of SDAccel flow by using RTL Kernel. 
