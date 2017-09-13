@@ -76,7 +76,7 @@ Vivado% exit
 Generated XO file: **./src/rtl_vadd.xo**
 
 
-## Step 3: Running SDAccel with Host code, XO file  
+## Step 3: Running SDAccel with Host code and XO file  
 
 The Host code for this example is **./src/host.cpp** file.  
 
