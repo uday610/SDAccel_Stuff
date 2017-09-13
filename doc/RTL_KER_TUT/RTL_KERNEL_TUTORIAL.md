@@ -263,7 +263,7 @@ A finished AFI creation job will show **Available** State. Otherwise, it shows *
 		}
 ```
 		
-- Once **Available** execute the application on the F1 instance  
+- Once **Available**, execute your application on the F1 instance.  
 
 ```
 $ sudo sh
