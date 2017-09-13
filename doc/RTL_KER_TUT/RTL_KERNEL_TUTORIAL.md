@@ -56,7 +56,7 @@ Here are the basic switches of the **package_xo** command used in this example:
 |  Switches         |  Type      |  Description                  |
 |:-----------------:|:----------:|:-----------------------------:|
 | **xo_path**	    |   Output	 | Output XO file path and name  |  
-| **kernel_name**   |   Input	 | Name from the TOP level RTL   |  
+| **kernel_name**   |   Input	 | Name of the TOP level RTL     |  
 | **ip_directory**  |	Input	 | Name of the RTL-IP directory  |  
 | **kernel_xml**    |	Input	 | Kernel description XML file   |  
 
