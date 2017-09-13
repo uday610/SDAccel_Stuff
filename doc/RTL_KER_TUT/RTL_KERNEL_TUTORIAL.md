@@ -1,5 +1,5 @@
 
-# Short Tutorial for RTL Kernel example.
+# A Brief Introductory Tutorial of RTL Kernel Example.
 
 This tutorial explains the procedure to run SDAccel flow using a RTL Kernel description. The tutorial is using **vadd_kernel** example from the SDAccel Github examples repository.  
 
