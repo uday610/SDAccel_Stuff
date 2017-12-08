@@ -20,7 +20,7 @@ Upon running, it generates a file **metric1.csv** with the detail of data-transf
        
 Q: How do I maximize data-transfer rate between Host and FPGA device? 
 
-A: In the OpenCL Host code, using the API clEnqueueMigrateMemObjects is recommended API to maximize the data-transfer rate instead of clEnqueueWriteBuffer/clEnqueueReadBuffer. 
+A: In the OpenCL Host code, using the API **clEnqueueMigrateMemObjects** is recommended API to maximize the data-transfer rate instead of clEnqueueWriteBuffer/clEnqueueReadBuffer. 
 
 Q: What to do when Software Emulation passes, but Hardware Emulation fails? 
 
