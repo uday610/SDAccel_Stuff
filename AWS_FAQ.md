@@ -1,7 +1,7 @@
 Q: How can I measure data transfer rate between the Host machine and FPGA device? 
 
-A: The SDAccel tool provides a small example to measure data-transfer between Host machine and FPGA. 
-     On AWS AMI, you can find the example directory inside the tool installation area: 
+A: The SDAccel tool provides a small host code testcase to measure data-transfer between Host machine and FPGA. 
+     On AWS AMI, you can find this testcase directory inside the tool installation area: 
         /opt/Xilinx/SDx/2017.1.op/examples/host_global/
 
   Here are the simple steps to use the "host_global" testcase to measure data-transfer rate after copying it at your local directory. 
